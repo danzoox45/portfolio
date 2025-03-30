@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <p>I'm an aspiring web developer learning and growing!</p>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi! I'm Aashika, an aspiring web developer currently learning HTML, CSS, and Python. I love coding and building small projects to improve my skills.</p>
+        <p>My goal is to become a full-stack developer and create interactive and user-friendly websites.</p>
+        <p>Technologies I'm learning:</p>
+        <ul>
+            <li>HTML & CSS</li>
+            <li>Python</li>
+            <li>JavaScript (coming soon!)</li>
+        </ul>
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1</h3>
+            <p>A simple project I built while learning.</p>
+            <a href="#">View Project</a>
+        </div>
+        <div class="project">
+            <h3>Project 2</h3>
+            <p>Another interesting project I'm working on.</p>
+            <a href="#">View Project</a>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:danzoox45@gmail.com">your-email@example.com</a></p>
+        <p>GitHub: <a href="https://e">github.com/your-username</a></p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Your Name. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
